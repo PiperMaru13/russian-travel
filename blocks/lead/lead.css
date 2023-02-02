@@ -1,0 +1,21 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* grid-template-columns: minmax(320px, 984px);
+  grid-template-rows: 200px 72px 1fr 14px; */
+  padding: 56px 148px 0;
+  /* row-gap: 30px 15px 10px; */
+}
+
+@media (max-width: 1024px) {
+  .lead {
+    padding: 48px 48px 0;
+  }
+}
+
+@media (max-width: 770px) {
+  .lead {
+    padding: 48px 0 0;
+  }
+}
