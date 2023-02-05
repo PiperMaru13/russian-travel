@@ -1,12 +1,14 @@
 .header__menu {
   margin: 0 0 4px 0;
   padding: 0;
+  list-style: none;
+  display: flex;
+  gap: 18px;
 }
 
 @media (max-width: 360px) {
   .header__menu {
     margin: 0 0 6px 0;
-    padding: 0;
   }
 }
 

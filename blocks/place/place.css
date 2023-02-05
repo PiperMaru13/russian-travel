@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  grid-template-columns: minmax(1% , 460px) 1fr;
+  grid-template-columns: minmax(1% , 460px) minmax(49%, 261px);
   grid-template-rows: 1fr;
   gap: 48px 40px;
   align-items: end;
@@ -8,14 +8,14 @@
 
 @media (max-width: 1024px) {
   .place {
-    grid-template-columns: minmax(1% , 440px) 1fr;
+    grid-template-columns: minmax(1% , 440px) minmax(49%, 174px);
     column-gap: 32px;
   }
 }
 
 @media (max-width: 770px) {
   .place {
-    grid-template-columns: minmax(1% , 340px) 1fr;
+    grid-template-columns: minmax(1% , 340px) minmax(49%, 182px);
     column-gap: 28px;
   }
 }

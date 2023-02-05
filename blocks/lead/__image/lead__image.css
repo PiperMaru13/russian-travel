@@ -1,31 +1,4 @@
 .lead__image {
   margin: 0;
   width: 100%;
-  /* max-width: 984px;
-  height: 615px;
-  background-size: cover;
-  overflow: hidden; */
 }
-
-/* @media (max-width: 1024px) {
-  .lead__image {
-    margin: 56px 0 8px;
-    width: 928px;
-    height: 580px;
-  }
-}
-
-@media (max-width: 768px) {
-  .lead__image {
-    width: 768px;
-    height: 480px;
-  }
-}
-
-@media (max-width: 360px) {
-  .lead__image {
-    margin: 40px 0 8px;
-    width: 320px;
-    height: 200px;
-  }
-}  */

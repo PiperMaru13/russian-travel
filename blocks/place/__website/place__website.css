@@ -1,7 +1,3 @@
-.place__website {
-  position: relative;
-}
-
 @media (max-width: 430px) {
   .place__website {
     padding: 0px 16px;
